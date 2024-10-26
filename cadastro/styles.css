@@ -1,0 +1,47 @@
+input:valid {
+    background-image: url('data:image/svg+xml;utf8,✓');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 20px;
+    border: 2px solid green;
+  }
+  
+  input:invalid {
+    background-image: url('data:image/svg+xml;utf8,✖');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 20px;
+    border: 2px solid red;
+  }
+  
+  #nome:valid {
+    background-image: url('data:image/svg+xml;utf8,✓');
+  }
+  
+  #nome:invalid {
+    background-image: url('data:image/svg+xml;utf8,✖');
+  }
+  
+  #email:valid {
+    background-image: url('data:image/svg+xml;utf8,✓');
+  }
+  
+  #email:invalid {
+    background-image: url('data:image/svg+xml;utf8,✖');
+  }
+  
+  #cpf:valid {
+    background-image: url('data:image/svg+xml;utf8,✓');
+  }
+  
+  #cpf:invalid {
+    background-image: url('data:image/svg+xml;utf8,✖');
+  }
+  
+  #idade:valid {
+    background-image: url('data:image/svg+xml;utf8,✓');
+  }
+  
+  #idade:invalid {
+    background-image: url('data:image/svg+xml;utf8,✖');
+  }  
